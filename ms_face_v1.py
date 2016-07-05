@@ -107,7 +107,7 @@ with open( pathToFileInDisk, 'rb' ) as f:
     data = f.read()
 
 # Face detection parameters
-params = { 'returnFaceAttributes': 'age,gender',
+params = { 'returnFaceAttributes': 'cage,gender',
            'returnFaceLandmarks': 'true'}
 
 headers = dict()
